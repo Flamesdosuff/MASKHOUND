@@ -25,7 +25,20 @@ public class InventoryItemUI : MonoBehaviour
 
     public void OnClick()
     {
-        MaskCraftingController.Instance.SelectItem(item);
+        if (item == null) return;
+
+        if (ShopModeController.Instance.IsCraftingMode())
+        {
+            MaskCraftingController.Instance.SelectItem(item);
+            return;
+        }
+
+        if (ShopModeController.Instance.IsSellingMode())
+        {
+            SellManager.Instance.SelectItem(item);
+            return;
+        }
     }
+
 
 }

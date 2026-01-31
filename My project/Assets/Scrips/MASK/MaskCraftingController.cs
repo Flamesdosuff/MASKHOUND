@@ -9,6 +9,7 @@ public class MaskCraftingController : MonoBehaviour
     [Header("Slots UI")]
     public Image slotAImage;
     public Image slotBImage;
+    public Image slotCImage;
     public Image resultImage;
 
     [Header("Logic")]
@@ -18,10 +19,7 @@ public class MaskCraftingController : MonoBehaviour
     private ItemData slotA = null;
     private ItemData slotB = null;
 
-    // Flags de selección independientes
-
     public MaskInventoryUI inventoryUI;
-
 
     void Awake()
     {
@@ -57,10 +55,11 @@ public class MaskCraftingController : MonoBehaviour
             item.isSelected = true;
             SetSlotUI(slotBImage, item);
             inventoryUI.Refresh();
+            return;
         }
+
+
     }
-
-
 
     public void OnSlotClick(int slotIndex)
     {
@@ -88,10 +87,9 @@ public class MaskCraftingController : MonoBehaviour
             slotB = null;
             slotBImage.enabled = false;
             inventoryUI.Refresh();
+            return;
         }
     }
-
-
 
     void SetSlotUI(Image img, ItemData item)
     {
@@ -103,45 +101,33 @@ public class MaskCraftingController : MonoBehaviour
     // =====================
     // COMBINAR
     // =====================
-    public void Combine()
-    {
-        if (slotA == null || slotB == null) return;
+    public void Combine() 
+    { if (slotA == null || slotB == null)
+      return; 
+      craftingTable.slotA = slotA; 
+      craftingTable.slotB = slotB; 
+      craftingTable.Combine();
+      ItemData result = craftingTable.resultado; 
+      if (result == null) 
+      { 
+            Debug.Log("Combinación inválida"); 
+            return; 
+      } if (resultImage != null) 
+        { 
+            resultImage.sprite = result.sprite; 
+            resultImage.color = result.tipo == ItemType.Color ? result.rgb : Color.white; 
+            resultImage.enabled = true; 
+        } 
+    ClearSlots(); inventoryUI.Refresh(); }
 
-        craftingTable.slotA = slotA;
-        craftingTable.slotB = slotB;
-
-        craftingTable.Combine();
-
-        ItemData result = craftingTable.resultado;
-
-        if (result == null)
-        {
-            Debug.Log("Combinación inválida");
-            return;
-        }
-
-        if (resultImage != null)
-        {
-            resultImage.sprite = result.sprite;
-            resultImage.color = result.tipo == ItemType.Color ? result.rgb : Color.white;
-            resultImage.enabled = true;
-        }
-
-        ClearSlots();
-        inventoryUI.Refresh();
-    }
     void ClearSlots()
     {
-        // liberar flags
         if (slotA != null) slotA.isSelected = false;
         if (slotB != null) slotB.isSelected = false;
-
         slotA = null;
         slotB = null;
-
         slotAImage.enabled = false;
         slotBImage.enabled = false;
-
         inventoryUI.Refresh();
     }
 
@@ -149,5 +135,4 @@ public class MaskCraftingController : MonoBehaviour
     {
         return lockedItems.Contains(item);
     }
-
 }
