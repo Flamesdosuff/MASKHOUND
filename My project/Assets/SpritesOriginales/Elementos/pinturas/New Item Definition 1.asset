@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2643b9a08d28f1a47bf819933eee1a83, type: 3}
+  m_Name: New Item Definition 1
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDefinition
+  tipo: 2
+  nombre: 1
+  sprite: {fileID: 5308161740594130888, guid: bb74eba4b81b6be4b902195685adce80, type: 3}
+  color: {r: 1, g: 1, b: 1, a: 0}

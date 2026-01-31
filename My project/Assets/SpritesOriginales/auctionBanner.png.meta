@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 7c11b9ae9d2a3d34c923c3ce85b50981
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8260948402593227004
+    second: auctionBanner_0
+  - first:
+      213: -6968328462654119825
+    second: auctionBanner_1
+  - first:
+      213: -5067383331295318064
+    second: auctionBanner_2
+  - first:
+      213: 1888297922725673231
+    second: auctionBanner_3
+  - first:
+      213: 8141467587267979037
+    second: auctionBanner_4
+  - first:
+      213: -6055540895674237008
+    second: auctionBanner_5
+  - first:
+      213: 822163318394515171
+    second: auctionBanner_6
+  - first:
+      213: -5800112318890080162
+    second: auctionBanner_7
+  - first:
+      213: 5287702680710456784
+    second: auctionBanner_8
+  - first:
+      213: 5918252141445124834
+    second: auctionBanner_9
+  - first:
+      213: -182088334597154346
+    second: auctionBanner_10
+  - first:
+      213: -8538578391965604638
+    second: auctionBanner_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: auctionBanner_0
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 437
+        width: 124
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf06664cdc8c4a270800000000000000
+      internalID: 8260948402593227004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: auctionBanner_1
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 450
+        width: 89
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60e149de268b4f90800000000000000
+      internalID: -6968328462654119825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: auctionBanner_2
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 415
+        width: 92
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df286555b90da9b0800000000000000
+      internalID: -5067383331295318064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: auctionBanner_3
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 415
+        width: 126
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09fb22c4f4943a10800000000000000
+      internalID: 1888297922725673231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: auctionBanner_4
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 442
+        width: 43
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17e671a2ad4cf070800000000000000
+      internalID: 8141467587267979037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: auctionBanner_5
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 457
+        width: 102
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf7c7693a566fba0800000000000000
+      internalID: -6055540895674237008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: auctionBanner_6
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 436
+        width: 106
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eee24c9e29e86b00800000000000000
+      internalID: 822163318394515171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: auctionBanner_7
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 51
+        width: 118
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e588037839cd18fa0800000000000000
+      internalID: -5800112318890080162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: auctionBanner_8
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 79
+        width: 95
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5a0a99291b16940800000000000000
+      internalID: 5287702680710456784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: auctionBanner_9
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 61
+        width: 91
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2180667fad12250800000000000000
+      internalID: 5918252141445124834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: auctionBanner_10
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 59
+        width: 95
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9189adf97197df0800000000000000
+      internalID: -182088334597154346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: auctionBanner_11
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 75
+        width: 94
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4601c1130e08980800000000000000
+      internalID: -8538578391965604638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      auctionBanner_0: 8260948402593227004
+      auctionBanner_1: -6968328462654119825
+      auctionBanner_10: -182088334597154346
+      auctionBanner_11: -8538578391965604638
+      auctionBanner_2: -5067383331295318064
+      auctionBanner_3: 1888297922725673231
+      auctionBanner_4: 8141467587267979037
+      auctionBanner_5: -6055540895674237008
+      auctionBanner_6: 822163318394515171
+      auctionBanner_7: -5800112318890080162
+      auctionBanner_8: 5287702680710456784
+      auctionBanner_9: 5918252141445124834
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
